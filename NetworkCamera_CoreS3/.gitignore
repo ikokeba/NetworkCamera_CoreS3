@@ -1,0 +1,27 @@
+# PlatformIO
+.pio/
+.vscode/
+.idea/
+
+# Build files
+*.o
+*.elf
+*.bin
+*.hex
+
+# WiFi設定ファイル（機密情報を含むため除外）
+setting.yaml
+setting.txt
+settings.yaml
+settings.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*~

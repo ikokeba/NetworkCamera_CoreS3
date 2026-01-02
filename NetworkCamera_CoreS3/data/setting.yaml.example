@@ -1,0 +1,18 @@
+# WiFi設定ファイルのテンプレート
+# このファイルを setting.yaml にコピーして、実際の値を設定してください
+
+wifi:
+  ssid: "your_wifi_ssid"      # WiFiのSSID
+  password: "your_wifi_password"  # WiFiのパスワード
+
+# RTSP設定（オプション）
+rtsp:
+  port: 8554                  # RTSPサーバーのポート番号（デフォルト: 8554）
+  stream_path: "/mjpeg/1"     # ストリームパス
+
+# カメラ設定（オプション）
+camera:
+  frame_size: 5               # フレームサイズ (0=QQVGA, 1=HQVGA, 2=QVGA, 3=CIF, 4=VGA, 5=SVGA, 6=XGA, 7=SXGA, 8=UXGA)
+  jpeg_quality: 12            # JPEG品質 (0-63, 低いほど高品質)
+  fps: 10                     # 目標フレームレート
+

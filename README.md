@@ -1,1 +1,0 @@
-# NetworkCamera_CoreS3
